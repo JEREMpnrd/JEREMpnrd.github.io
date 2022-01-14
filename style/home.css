@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap');
+.home {
+    width: 100%;
+    height: 13vh;
+    position: relative;
+
+    background-position: center center;
+    
+  }
+
+  .slider {
+    position: fixed;
+    top: 7vh;
+    left: 5vw;
+    width: 15vw;
+    color: white;
+    font-family: 'Outfit', cursive;
+    text-align: right;
+    z-index: 10;
+}
+.slider input {
+    width: 100%;
+    margin-bottom: 5px;
+    z-index: 10;;
+}
+#stars {
+    position: fixed;
+}
+
+.TextHome {
+	 width: 100vw;
+	 height: 100vh;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 flex-direction: column;
+     margin: auto auto;
+     
+}
+.MyName {
+	 font-family: 'Outfit', cursive ;
+	 background: url('https://media.giphy.com/media/5kFbMBOEdWjg1nItoG/giphy.gif') center center no-repeat;
+	 background-clip: text;
+     -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 font-size: 5em;
+	 letter-spacing: 10px;
+	 background-size: cover;
+	 margin: 0px;
+	 color: transparent;
+     
+}
+.Profession {
+	 font-family: 'Outfit', cursive ;
+	 color: transparent;
+	 font-size: 1em;
+	 letter-spacing: 5px;
+	 margin: 0px;
+	 background: linear-gradient(to bottom, rgb(54, 125, 247), white,rgb(54, 125, 247));
+	 background-clip: text;
+     -webkit-background-clip: text;
+}
+/* SOURIS */
+.cursor {
+    position: fixed;
+    top: -1rem;
+    left: -1rem;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1000;
+  }
+  .cursor div {
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 3px solid rgb(54, 125, 247);
+    transition: transform 0.5s ease, opacity 0.35s ease;
+  }
+  .cursor.is-active div {
+    transform: scale(2.5);
+    opacity: 0.25;
+  }
+  

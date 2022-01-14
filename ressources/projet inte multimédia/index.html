@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESERVOIR DOGS</title>
+    <link href="../projet inte multimédia/style/style.css" rel="stylesheet" media="screen and (min-width: 900px)"/>
+    <script src="script/script.js" defer></script>
+    <!-- Chargement de l'API YouTube -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- Chargement de la bibliothèque jQuery (CDN) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <!-- LEAFLET -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+<body>
+    <input class="bouton" type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+      <div class="wrapper">
+        <ul class="menu-area">
+            <li><a class="ba" href="#ba" data-text="TRAILER">TRAILER</a></li>
+            <li><a class="brown" href="#brown" data-text="BLONDE">BLONDE</a></li>
+            <li><a class="white" href="#pink" data-text="WHITE">WHITE</a></li>
+            <li><a class="orange" href="#orange" data-text="ORANGE">ORANGE</a></li>
+            <li><a class="pink" href="#pink" data-text="PINK">PINK</a></li>
+            <li><a class="pictures" href="#pictures" data-text="PICTURES">PICTURES</a></li>
+        </ul>
+  </div>
+    
+    <header>
+    <div>
+        <img src="medias/Reservoir_Dogs_Logo.png" alt="logo">
+    </div>
+    <section>
+        <a href=""><img src="medias/logo_instagram.svg" alt="lien insta"></a>
+        <a href=""><img src="medias/logo_twitter.svg" alt="lien twitter"></a>
+        <a href=""><img src="medias/logo_facebook.svg"  alt="lien facebook"></a>
+        </section>
+
+    </header>
+    <Section>
+    </Section>
+    <Section id="ba">
+        <div>
+            <div id="video"></div>
+        </div>
+    </Section>
+    <section>
+        <h1>CHARACTERS</h1>
+        <div>
+        <div>
+            <img class="Cabotjnr" src="medias/characters/cabotjnr.jpg" alt="h" onClick="afficherTexte('When arriving to his father\'s office and seeing Vic Vega, he hugs him, gives him comedic insults and has a playfight with him. He plans to give Vic a job lifting crates, and says about the plan. With Vic wanting to do criminal jobs, Nice Guy Eddie asks Joe about giving him a job as one of the six robbers on a diamond heist, which Vic happily agrees to do.')">
+            <img class="Joe" src="medias/characters/joe cabot.jpg" alt="f" onClick="afficherTexte('All that was known about Joe Cabot is that in his earlier years, he was himself a gangster who did the kinds of jobs that he organized. He was long-time friends with Mr. White and Mr. Blonde. Mr. Pink knew him since Pink was a kid.he is the godfather of the robbery, he supervises the operation.')">
+            <img class="Police" src="medias/characters/Marvin_Nash_tortured_police_officer_in_Reservoir_Dogs.jpg" alt="e" onClick="afficherTexte('Marvin Nash was a police officer who worked for the Los Angeles Police Department. 5 months before the jewelry heist, he meets Freddy Newandyke, a cop working undercover to arrest L.A. Crime boss Joe Cabot by working undercover as a criminal in Cabot\'s gang.')">
+            <img class="Freddy" src="medias/characters/FreddyNewandyke.jpg" alt="g" onClick="afficherTexte('After the heist takes place, he rides along with Mr. White and Mr. Brown. When the car crashes, he and Mr. White go to carjack a woman, but Mr. Orange gets shot by her, but then Mr. Orange shoots back, killing her. Fatally wounded, Mr. Orange is in agonising pain when Mr. White is driving them to the warehouse. When in the warehouse, Mr. White tries to calm Mr. Orange down. Mr. Orange pleads to get taken to a hospital, and promises him that he won\'t tell them anything. He later passes out, and is thought dead by Mr. Pink and Nice Guy Eddie.')">
+            <img class="Brown" src="medias/characters/Mr._Brown.jpg" alt="d" onClick="afficherTexte('In the history before the jewelry robbery, Brown was hired by Joe Cabot, an elderly crime boss, and his son \'\'Nice Guy Eddie\'\'Cabot. In the beginning of the movie, he discusses about Madonna along with White, Orange, Blue, Blonde, Pink, Nice Guy Eddie and Joe. Brown tells about Madonna\'s \'\'Like a Virgin\'\' but is cut off when Mr White talks about Joe\'s address book. At the end of the scene, the eight men leaves money for the waitresses before leaving for the jewelry robbery.')">
+            <img class="Blonde" src="medias/characters/MrBlonde.jpg" alt="c" onClick="afficherTexte('Victor \'\'Vic\'\'Vega is a close friend of Los Angeles crime boss Joe Cabot, and his son \'Nice Guy\' Eddie Cabot and brother of Vincent Vega. Victor is offered a diamond heist by the Cabots which he accepted.  It was soon revealed to his accomplices that Mr Blonde was a sadistic psychopath.')">
+            <img class="Pink" src="medias/characters/PINK.jfif" alt="b" onClick="afficherTexte('Not much is revealed in his back story. In the opening scene he tells the other robbers that he was ten years old in 1973 when the DeFranco Family released \'\'Heartbeat is a Love Beat\'\' meaning he was born in 1963, meaning he is 29 years old in 1992 in the movie. He is known for his cynical opinion of tipping waitresses and being a contradictory professional such as being given his name \'\'Mr. Pink\'\', he objects and says how it sounds like \'\'Mr. Pussy\'\', and requests to have his name changed to something less weak like \'\'Mr. Purple\'\', or to trade names with Mr. White. He has known Joe Cabot as a youth and believed that Joe had something to do with the set-up. He recalls one time when he wanted to refuse to do a job but didn\'t because of the money. He quit smoking, but relapsed during the film.')">
+            <img class="White" src="medias/characters/White.jpg" alt="a" onClick="afficherTexte('Lawrence Dimmick originated from Milwaukee, Wisconsin, where he has a criminal record for armed robbery. Dimmick has been a career criminal with a close association with Joe Cabot in Los Angeles. He used to be paired with a female thief named Alabama, although he broke this relationship off, due to becoming fed up of the woman-man thing. On one of his previous jobs, he discovered that one of the team was an undercover cop. Dimmick had to abandon the job. He returned to work for Joe Cabot, who explained about a diamond heist with five other guys. Dimmick was intrigued and wanted to take part.')">
+            <img class="Blue" src="medias/characters/Mr._Blue_Reservoir_Dogs.png" alt="z" onClick="afficherTexte('Mr Blue is an old man and he smokes a cigar at the diner. He is old. Not much is known about mr blue because he has two lines but we know that he smokes a cigar and he is also old')">
+        </div>
+        <div id="div2">
+            
+            YOU CAN CLICK ON A CHARACATER TO SHOW HIS STORY
+        </div>
+        </div>
+    </section>
+    <Section id="orange">
+        <h1>ORANGE</h1>
+    </Section>
+    <Section id="pink">
+        <h1>PINK & WHITE</h1>
+    </Section>
+    <section id="brown">
+        <h1>BLONDE</h1>
+    </section>
+    <section id="pictures">
+        <form>
+
+            <input  type="radio" name="fancy"  value="clubs" id="clubs" />
+            <input  type="radio" name="fancy" value="hearts" id="hearts" />
+            <input  type="radio" name="fancy" value="spades" id="spades" />
+            <input  type="radio" name="fancy" value="diamonds" id="diamonds" />			
+            <label for="clubs"></label><label for="hearts"></label><label for="spades"></label><label for="diamonds"></label>
+        </form>
+    </section>
+    <section>
+        <h2>NEARBY STORES TO GET THE FILM</h2>
+       
+        <button class="localisemoi" id = "find-me">Find my location</button><br/>
+        <!-- Contenu injecté ici -->
+        <p id = "status"></p>
+        
+        <p id="mapSite"></p>
+        <!-- Carte injectée ici -->
+        <div id="mapid"></div>
+
+        <p id="result"></p>
+        <a id = "map-link" target="_blank" title=" CLICK HERE TO FIND A STORE"></a>
+    </section>
+    <footer></footer>
+</body>
+</html>
