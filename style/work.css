@@ -114,7 +114,7 @@ p span {
 
 .gallery {
   display: flex;
-  padding: 2px;
+  padding: 1%;
   transition: 0.3s;
 }
 .gallery:hover .gallery__image {
