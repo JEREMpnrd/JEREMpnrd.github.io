@@ -193,40 +193,9 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 22px;
-    grid-template-areas: "photo-1 photo-1 photo-2 photo-3 photo-3 photo-4" "photo-5 photo-5 photo-2 photo-3 photo-3 photo-4" "photo-5 photo-5 photo-2 photo-7 photo-8 photo-4" "photo-6 photo-6 photo-6 photo-7 photo-8 photo-9" "photo-6 photo-6 photo-6 photo-7 photo-8 photo-9";
+  
   }
-  .gallery .inner div {
-    background-color: #000;
-    background-size: cover;
-    background-position: center;
-  }
-  .gallery .inner div:nth-child(1) {
-    grid-area: photo-1;
-  }
-  .gallery .inner div:nth-child(2) {
-    grid-area: photo-2;
-  }
-  .gallery .inner div:nth-child(3) {
-    grid-area: photo-3;
-  }
-  .gallery .inner div:nth-child(4) {
-    grid-area: photo-4;
-  }
-  .gallery .inner div:nth-child(5) {
-    grid-area: photo-5;
-  }
-  .gallery .inner div:nth-child(6) {
-    grid-area: photo-6;
-  }
-  .gallery .inner div:nth-child(7) {
-    grid-area: photo-7;
-  }
-  .gallery .inner div:nth-child(8) {
-    grid-area: photo-8;
-  }
-  .gallery .inner div:nth-child(9) {
-    grid-area: photo-9;
-  }
+ 
   body > div + div article:nth-child(1) {
     /* Design */
   
