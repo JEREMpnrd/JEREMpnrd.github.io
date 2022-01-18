@@ -183,18 +183,12 @@
     position: relative;
   }
   .gallery .inner {
-    display: grid;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 22px;
+    display: flex;
+    flex-wrap: wrap;
     
   }
  .inner>img {
-   
+   width: 10%;
+   margin-left: 5%;
+   margin-right: 5%;
  }
