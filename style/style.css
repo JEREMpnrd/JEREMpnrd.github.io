@@ -61,7 +61,7 @@ nav ul {
 }
 
 nav ul li {
-  flex-basis: 25%;
+  flex-basis: 33.3%;
   justify-content: center;
   align-items: center;
   height: 100%;
