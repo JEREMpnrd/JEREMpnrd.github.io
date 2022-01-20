@@ -80,4 +80,18 @@
     transform: scale(2.5);
     opacity: 0.25;
   }
-  
+  @media screen and (max-width: 900px) { 
+  .MyName {
+    font-family: 'Outfit', cursive ;
+    background: url('https://media.giphy.com/media/5kFbMBOEdWjg1nItoG/giphy.gif') center center no-repeat;
+    background-clip: text;
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    letter-spacing: 8px;
+    background-size: cover;
+    margin: 0px;
+    color: transparent;
+      
+ }
+}
