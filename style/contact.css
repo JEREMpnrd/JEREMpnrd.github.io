@@ -8,7 +8,9 @@
     justify-content: center;
     align-items: center;
   }
-  
+  *{
+    font-family: 'Outfit', cursive ;
+}
   .container {
     width: 100%;
     display: flex;
@@ -27,8 +29,13 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border-bottom: solid red 2px;
   }
-  
+  .card:hover{
+      border-bottom: 0px solid red;
+      margin-bottom: 10vh;
+      transition-duration: 0.5s;
+  }
   .card i {
     color: #d44444;
     font-size: 2rem;
@@ -55,6 +62,7 @@
   .card:hover i {
     transform: scale(2);
     opacity: 0;
+    
   }
   
   .card:hover .card-title {
