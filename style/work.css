@@ -375,4 +375,17 @@ embed {
   .gallery:hover .gallery__image {
     filter: grayscale(0);
   }
+  embed {
+    width: 90vw;
+    height: 90vh;
+    margin: 3%;
+    border-bottom: 3px solid black;
+    padding-bottom: 4vh ;
+  }
+  #pictures>img {
+    width: 95vw;
+    margin: 3%;
+    border-bottom: 3px solid black;
+    padding-bottom: 4vh ;
+  }
 }
