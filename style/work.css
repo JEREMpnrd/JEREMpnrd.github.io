@@ -372,4 +372,7 @@ embed {
     filter: blur(0em);
     transition: filter 0.5s;
   }
+  .gallery:hover .gallery__image {
+    filter: grayscale(0);
+  }
 }
