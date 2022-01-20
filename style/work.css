@@ -313,7 +313,7 @@ embed {
   .gallery__column {
 
     flex-direction: column;
-    width: 80vw;
+    width: 90vw;
   }
   .gallery__link {
     margin: 0;
