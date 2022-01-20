@@ -377,7 +377,7 @@ embed {
   }
   embed {
     width: 90vw;
-    height: 90vh;
+    height: 45vh;
     margin: 3%;
     border-bottom: 3px solid black;
     padding-bottom: 4vh ;
@@ -387,5 +387,15 @@ embed {
     margin: 3%;
     border-bottom: 3px solid black;
     padding-bottom: 4vh ;
+    margin-top: 8%;
+  }
+  #video1 {
+    width: 90vw;
+  }
+  #video2 {
+    width: 90vw;
+  }
+  #video3 {
+    width: 90vw;
   }
 }
