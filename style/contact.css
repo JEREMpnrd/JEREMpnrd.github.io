@@ -108,7 +108,8 @@ footer>section>a:first-of-type>img {
       max-width: 500px;
     }
     body{
-        overflow: visible;
+        overflow-y: visible;
+        
     }
     footer>section>a:first-of-type>img {
         width: 7vw;

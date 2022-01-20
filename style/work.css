@@ -297,9 +297,27 @@ embed {
 @media screen and (max-width: 900px) {
   .titre.clicked {
     font-size: 2em;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
     top: 5vh;
-    margin-top: 0%;
+    margin-top: 1%;
+}
+.titre-design.clickeddesign {
+  font-size: 2em;
+  margin-bottom: 5%;
+  top: 5vh;
+  margin-top: 1%;
+}
+.titre-web.clickedweb {
+  font-size: 2em;
+  margin-bottom: 5%;
+  top: 5vh;
+  margin-top: 5%;
+}
+.titre-video.clickedcontact {
+  font-size: 2em;
+  margin-bottom: 5%;
+  top: 5vh;
+  margin-top: 5%;
 }
   .gallery {
     display: flex;
@@ -307,9 +325,7 @@ embed {
     padding: 5%;
     transition: 0.3s;
   }
-  .gallery:hover .gallery__image {
-    filter: grayscale(1);
-  }
+
   .gallery__column {
 
     flex-direction: column;
@@ -319,9 +335,7 @@ embed {
     margin: 0;
     overflow: hidden;
   }
-  .gallery__link:hover .gallery__image {
-    filter: grayscale(0);
-  }
+
   .gallery__link:hover .gallery__caption {
     opacity: 1;
   }
