@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap');
-  .body {
+
+footer {
+   top: 75%;
+ position: absolute;
+  }
+footer>section {
+    display: flex;
+    flex-direction: row;
+}
+footer>section>a:first-of-type>img {
+    width: 4vw;
+    margin: 2vw;
+  }
+  footer>section>a:nth-of-type(2)>img {
+    width: 4.4vw;
+    margin: 2vw;
+  }
+  footer>section>a:nth-of-type(3)>img{
+    width: 2.5vw;
+    margin: 2vw;
+  }
+  a:hover img {
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
+  transition: 1s;
+}
+.body {
     width: 100vw;
     height: 100vh;
     background-color: #1E3C6A;
@@ -7,6 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
   }
   *{
     font-family: 'Outfit', cursive ;
@@ -78,4 +105,23 @@
       flex: 100%; 
       max-width: 500px;
     }
+    body{
+        overflow: visible;
+    }
+    footer>section>a:first-of-type>img {
+        width: 7vw;
+        margin: 2vw;
+      }
+      footer>section>a:nth-of-type(2)>img {
+        width: 7vw;
+        margin: 2vw;
+      }
+      footer>section>a:nth-of-type(3)>img{
+        width: 4vw;
+        margin: 2vw;
+      }
+      footer {
+        top: 90%;
+      position: absolute;
+       }
   }
