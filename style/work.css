@@ -293,7 +293,9 @@ embed {
     top: 0;
     margin-top: 0%;
 }
-
+.info {
+  position: fixed;
+}
 @media screen and (max-width: 900px) {
   .titre.clicked {
     font-size: 2em;
