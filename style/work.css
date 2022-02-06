@@ -12,6 +12,13 @@ body {
     height: fit-content;
     width: 100%;
 }
+.info {
+  position: fixed;
+  z-index: 15;
+  font-style: italic;
+  font-size: small;
+  left: 2vw;
+}
 p {
   text-decoration: none; 
   color: white;
@@ -312,13 +319,13 @@ embed {
     font-size: 2em;
     margin-bottom: 5%;
     top: 5vh;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 .titre-design.clickeddesign {
   font-size: 2em;
   margin-bottom: 5%;
   top: 5vh;
-  margin-top: 1%;
+  margin-top: 5%;
 }
 .titre-web.clickedweb {
   font-size: 2em;
@@ -416,6 +423,14 @@ embed {
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
+}
+.info {
+  position: fixed;
+  z-index: 15;
+  font-style: italic;
+  font-size: 0.8em;
+  left: 2vw;
+  width: 40vw;
 }
   #video1 {
     width: 90vw;
