@@ -172,11 +172,22 @@ article img {
 
 /* CARROUSSEL */
 
-#pictures>img {
+.cours {
   width: 60vw;
   margin: 3%;
   border-bottom: 3px solid black;
   padding-bottom: 4vh ;
+}
+.pulpfiction {
+  border-bottom: 3px solid black;
+  padding-bottom: 4vh ;
+  margin: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.imgpf {
+  width: 20vw;
+  margin: auto;
 }
 embed {
   width: 45vw;
@@ -384,13 +395,28 @@ embed {
     border-bottom: 3px solid black;
     padding-bottom: 4vh ;
   }
-  #pictures>img {
+  .cours {
     width: 95vw;
     margin: 3%;
     border-bottom: 3px solid black;
     padding-bottom: 4vh ;
     margin-top: 8%;
   }
+}
+.pulpfiction {
+  border-bottom: 3px solid black;
+  padding-bottom: 4vh ;
+  margin: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+}
+.imgpf {
+  width: 40vw;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
   #video1 {
     width: 90vw;
   }
