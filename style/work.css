@@ -319,25 +319,25 @@ embed {
     font-size: 2em;
     margin-bottom: 5%;
     top: 5vh;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 .titre-design.clickeddesign {
   font-size: 2em;
   margin-bottom: 5%;
   top: 5vh;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 .titre-web.clickedweb {
   font-size: 2em;
   margin-bottom: 5%;
   top: 5vh;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 .titre-video.clickedcontact {
   font-size: 2em;
   margin-bottom: 5%;
   top: 5vh;
-  margin-top: 5%;
+  margin-top: 7%;
 }
   .gallery {
     display: flex;
@@ -430,7 +430,7 @@ embed {
   font-style: italic;
   font-size: 0.8em;
   left: 2vw;
-  width: 40vw;
+
 }
   #video1 {
     width: 90vw;
