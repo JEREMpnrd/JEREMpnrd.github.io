@@ -178,7 +178,10 @@ article img {
 
 
 /* CARROUSSEL */
-
+.pdesign {
+  position: absolute;
+  align-self: center;
+}
 .cours {
   width: 60vw;
   margin: 3%;
@@ -401,7 +404,9 @@ embed {
     margin: 3%;
     border-bottom: 3px solid black;
     padding-bottom: 4vh ;
+    margin-top: 5vh;
   }
+
   .cours {
     width: 95vw;
     margin: 3%;
@@ -440,5 +445,8 @@ embed {
   }
   #video3 {
     width: 90vw;
+  }
+  body {
+  background-color: black;
   }
 }
