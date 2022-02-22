@@ -437,6 +437,9 @@ embed {
   left: 2vw;
 
 }
+body{
+  overflow-y: visible; 
+}
   #video1 {
     width: 90vw;
   }
