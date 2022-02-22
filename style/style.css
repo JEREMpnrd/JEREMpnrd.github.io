@@ -74,7 +74,7 @@ nav li a {
   top: 46%;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Work sans', sans-serif;
+  font-family: 'Outfit', cursive;
   font-weight: 300;
   letter-spacing: 4px;
   text-decoration: none;
@@ -112,7 +112,7 @@ nav li a:after {
   right: 0;
   bottom: -50px;
   text-transform: none;
-  font-family: 'Open sans', serif;
+  font-family: 'Outfit', cursive;
   font-weight: 300;
   font-style: italic;
   letter-spacing: 0;
@@ -172,8 +172,22 @@ nav li:nth-of-type(4){background-color: #C2C0CA}
 .slide-in-nav-item-delay-4-reverse {
   animation: slide-in-nav-item-reverse .3s linear 1 both;
 }
-
-
+/* ====================================
+CV
+==================================== */
+.cv{
+  position: absolute;
+  text-align: center;
+  top: 8vh;
+  left: 80vw;
+  width: 10vw;
+}
+.cv_pinard {
+  font-family: 'Outfit', cursive;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
 /* ====================================
 Burger king
 ==================================== */
