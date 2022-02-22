@@ -179,8 +179,8 @@ CV
   position: absolute;
   text-align: center;
   top: 8vh;
-  left: 80vw;
-  width: 10vw;
+  right: 10vw;
+  width: 20vw;
 }
 .cv_pinard {
   font-family: 'Outfit', cursive;
@@ -364,7 +364,21 @@ Animation keyframes
     background-color: #fff;
   }
 }
-
+@media (max-width: 950px) {
+  .cv{
+    position: absolute;
+    text-align: center;
+    top: 8vh;
+    right: 20vw;
+    width: 20vw;
+  }
+  .cv_pinard {
+    font-family: 'Outfit', cursive;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+  }
+}
 @media (max-width: 640px) {
   nav ul li a {
     font-size: 11px;
@@ -377,6 +391,19 @@ Animation keyframes
   }
   nav li a:before {
     width: 15px;
+  }
+  .cv{
+    position: absolute;
+    text-align: center;
+    top: 80vh;
+    left: 40vw;
+    width: 20vw;
+  }
+  .cv_pinard {
+    font-family: 'Outfit', cursive;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
   }
 }
 
