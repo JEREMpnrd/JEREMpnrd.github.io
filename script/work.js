@@ -119,7 +119,7 @@ $('.projects').click( function() {
                   lecteur = new YT.Player('video4', {
                     height: '390',
                     width: '640',
-                    videoId: 'baWx7zsNmuE',
+                    videoId: 'nP1Vb5_zSa4',
                     playerVars: {
                       color: 'white',
                       enablejsapi: 1,
