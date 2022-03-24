@@ -317,6 +317,13 @@ embed {
 .info {
   position: fixed;
 }
+.indifrenchimg{
+  margin-top: 1vh;
+  width: 50vw;
+}
+.titreindifrench {
+  margin-top: 15vh;
+}
 @media screen and (max-width: 900px) {
   .titre.clicked {
     font-size: 2em;

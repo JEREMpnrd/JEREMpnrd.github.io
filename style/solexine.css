@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&display=swap');
+body {
+    background-color: black;
+}
+*{
+    font-family: 'Outfit', cursive ;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+#grille {
+    display: grid;
+    grid-template-columns: 33vw 34vw 33vw;
+
+}
+#instagram {
+    grid-column: 1;
+    border-right: solid 2px white;
+    text-align: center;
+}
+#youtube {
+    grid-column: 2;
+    grid-row: 1;
+}
+#facebook {
+    grid-column: 3;
+    border-left: solid 2px white;
+}
+#instagram>a>img {
+    width: 30vw;
+}
+#instagram>a {
+    text-align: center;
+}
+#instagram>a:hover .lieninsta {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    border: solid green 2px;
+}
