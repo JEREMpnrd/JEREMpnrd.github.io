@@ -199,6 +199,26 @@ article img {
   width: 20vw;
   margin: auto;
 }
+
+.mh {
+  border-bottom: 3px solid black;
+  padding-bottom: 4vh ;
+  margin: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.imgmh {
+  width: 25vw;
+  margin: auto;
+  margin-top: 2vh;
+}
+.blendertxt {
+  color: white;
+  font-style: italic;
+  font-size: 0.8em;
+  grid-column: 2;
+}
 embed {
   width: 45vw;
   height: 90vh;
