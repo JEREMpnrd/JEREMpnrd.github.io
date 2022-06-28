@@ -132,6 +132,22 @@ $('.projects').click( function() {
                       onStateChange: changementLecteur,
                     },
                   });
+                  lecteur = new YT.Player('video3', {
+                    height: '390',
+                    width: '640vw',
+                    videoId: 'mkRXGO5XHDk',
+                    playerVars: {
+                      color: 'white',
+                      enablejsapi: 1,
+                      modestbranding: 1,
+                      rel: 0,
+                    },
+                
+                    events: {
+                      onReady: lecteurPret,
+                      onStateChange: changementLecteur,
+                    },
+                  });
                 }
                 
 
