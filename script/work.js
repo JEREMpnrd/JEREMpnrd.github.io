@@ -148,6 +148,22 @@ $('.projects').click( function() {
                       onStateChange: changementLecteur,
                     },
                   });
+                  lecteur = new YT.Player('video6', {
+                    height: '390',
+                    width: '640vw',
+                    videoId: 'DfDic-kkEyc',
+                    playerVars: {
+                      color: 'white',
+                      enablejsapi: 1,
+                      modestbranding: 1,
+                      rel: 0,
+                    },
+                
+                    events: {
+                      onReady: lecteurPret,
+                      onStateChange: changementLecteur,
+                    },
+                  });
                 }
                 
 
