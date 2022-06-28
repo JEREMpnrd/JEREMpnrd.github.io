@@ -70,7 +70,7 @@ $('.projects').click( function() {
                 function onYouTubeIframeAPIReady() {
                   lecteur = new YT.Player('video1', {
                     height: '390',
-                    width: '640vw',
+                    width: '640',
                     videoId: 'mkRXGO5XHDk',
                     playerVars: {
                       color: 'white',
@@ -134,7 +134,7 @@ $('.projects').click( function() {
                   });
                   lecteur = new YT.Player('video5', {
                     height: '390',
-                    width: '640vw',
+                    width: '400',
                     videoId: 'AUlQWtxVsvk',
                     playerVars: {
                       color: 'white',
@@ -150,7 +150,7 @@ $('.projects').click( function() {
                   });
                   lecteur = new YT.Player('video6', {
                     height: '390',
-                    width: '640vw',
+                    width: '400',
                     videoId: 'DfDic-kkEyc',
                     playerVars: {
                       color: 'white',

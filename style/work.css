@@ -299,7 +299,13 @@ embed {
   margin-top:6%;
   width: 100%;
 }
-
+#lec {
+  display: flex;
+  justify-content: center;
+}
+#vlec{
+  margin: 1%;
+}
 
 
 /*web*/
@@ -475,6 +481,15 @@ body{
   }
   #video3 {
     width: 90vw;
+  }
+  #video4 {
+    width: 90vw;
+  }
+  #video5 {
+    width: 45vw;
+  }
+  #video6 {
+    width: 45vw;
   }
   body {
   background-color: black;
