@@ -183,7 +183,23 @@ $('.projects').click( function() {
                   lecteur = new YT.Player('video8', {
                     height: '390',
                     width: '640',
-                    videoId: '-6rO2KzfKUw',
+                    videoId: 'ni4c_nLCA38',
+                    playerVars: {
+                      color: 'white',
+                      enablejsapi: 1,
+                      modestbranding: 1,
+                      rel: 0,
+                    },
+                
+                    events: {
+                      onReady: lecteurPret,
+                      onStateChange: changementLecteur,
+                    },
+                  });
+                  lecteur = new YT.Player('video9', {
+                    height: '390',
+                    width: '640',
+                    videoId: 'WZHOJ7DV-ng',
                     playerVars: {
                       color: 'white',
                       enablejsapi: 1,
