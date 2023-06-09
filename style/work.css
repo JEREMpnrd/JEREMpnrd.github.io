@@ -501,9 +501,13 @@ body{
   #video5 {
     width: 45vw;
   }
+  #video11 {
+    width: 90vw;
+  }
   #video6 {
     width: 45vw;
   }
+  
   body {
   background-color: black;
   }
