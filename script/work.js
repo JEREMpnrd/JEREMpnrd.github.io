@@ -212,6 +212,22 @@ $('.projects').click( function() {
                       onStateChange: changementLecteur,
                     },
                   });
+                  lecteur = new YT.Player('video10', {
+                    height: '390',
+                    width: '640',
+                    videoId: 'YwE0HHGkCY8',
+                    playerVars: {
+                      color: 'white',
+                      enablejsapi: 1,
+                      modestbranding: 1,
+                      rel: 0,
+                    },
+                
+                    events: {
+                      onReady: lecteurPret,
+                      onStateChange: changementLecteur,
+                    },
+                  });
                 }
                 
 
