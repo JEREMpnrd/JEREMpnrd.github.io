@@ -121,6 +121,17 @@ $('.projects').click( function() {
                       modestbranding: 1,
                       rel: 0,
                     },
+                  })
+                    lecteur = new YT.Player('video14', {
+                      height: '390',
+                      width: '640',
+                      videoId: 'y9bwS2ARcbs',
+                      playerVars: {
+                        color: 'white',
+                        enablejsapi: 1,
+                        modestbranding: 1,
+                        rel: 0,
+                      },
                     events: {
                       onReady: lecteurPret,
                       onStateChange: changementLecteur,
